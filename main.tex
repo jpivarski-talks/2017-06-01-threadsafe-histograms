@@ -190,6 +190,7 @@ double fill(long *fillme, long size, long trials, long cardinality, long *collis
 \begin{itemize}\setlength{\itemsep}{0.5 cm}
 \item Knight's Landing (for 128 threads), memory block in normal DRAM.
 \item Number of threads and naive vs.\ safe performed in a random order.
+\item Before execution, threads pinned to a random subset of CPUs.
 \item Collision rate controlled by bit shift, then measured in situ.
 \end{itemize}
 \end{frame}
